@@ -104,7 +104,7 @@ export const AppData = React.memo(
         ...uiSettings,
         [UI_SETTINGS.uiViewMode]: isDefaultModeActiveSpeaker
           ? UI_MODE_ACTIVE_SPEAKER
-          : uiSettings.uiViewMode || UI_MODE_GRID,
+          : UI_MODE_ACTIVE_SPEAKER,
       };
       hmsActions.setAppData(APP_DATA.uiSettings, updatedSettings, true);
     }, [preferences.uiSettings, isDefaultModeActiveSpeaker, hmsActions]);
