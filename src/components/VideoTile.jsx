@@ -59,8 +59,8 @@ const Tile = ({ peerId, trackId, width, height }) => {
   return (
     <StyledVideoTile.Root
       css={{
-        width,
-        height,
+        width: '100%',
+        height: '100%',
         padding: getPadding({ isHeadless, offset: headlessConfig?.tileOffset }),
       }}
       data-testid={`participant_tile_${peerName}`}

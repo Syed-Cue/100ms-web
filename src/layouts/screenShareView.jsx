@@ -62,13 +62,13 @@ const ScreenShareView = () => {
           },
         }}
       >
-        <SidePane
+        {/* <SidePane
           showSidebarInBottom={showSidebarInBottom}
           peerScreenSharing={peerPresenting}
           isPresenterInSmallTiles={showPresenterInSmallTile}
           smallTilePeers={smallTilePeers}
           totalPeers={peers.length}
-        />
+        /> */}
       </Flex>
     </Flex>
   );
