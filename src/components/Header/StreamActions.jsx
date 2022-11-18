@@ -220,6 +220,7 @@ const StartRecording = () => {
                 meetingURL: recordingUrl || getDefaultMeetingUrl(),
                 resolution: getResolution(resolution),
                 record: true,
+                ui_mode: "activespeaker",
               });
             } catch (error) {
               if (error.message.includes("stream already running")) {

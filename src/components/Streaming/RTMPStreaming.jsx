@@ -200,6 +200,7 @@ const StartRTMP = () => {
                 meetingURL: recordingUrl || getDefaultMeetingUrl(),
                 resolution: getResolution(resolution),
                 record: record,
+                ui_mode: "activespeaker",
               });
               setRTMPPreference(rtmpStreams);
             } catch (error) {

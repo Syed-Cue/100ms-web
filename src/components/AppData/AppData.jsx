@@ -47,7 +47,7 @@ const initialAppData = {
   [APP_DATA.uiSettings]: {
     [UI_SETTINGS.isAudioOnly]: false,
     [UI_SETTINGS.isHeadless]: false,
-    [UI_SETTINGS.maxTileCount]: 9,
+    [UI_SETTINGS.maxTileCount]: 1,
     [UI_SETTINGS.showStatsOnTiles]: false,
     [UI_SETTINGS.enableAmbientMusic]: false,
     [UI_SETTINGS.uiViewMode]: UI_MODE_GRID,
