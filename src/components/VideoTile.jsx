@@ -72,9 +72,10 @@ const Tile = ({ peerId, trackId, width, height }) => {
           ref={
             isHeadless && headlessConfig?.hideAudioLevel
               ? undefined
-              : borderAudioRef
+              : undefined
           }
         >
+          
           <TileConnection
             hideLabel={hideLabel}
             name={label}
